@@ -12,10 +12,21 @@ text-align: center;
 .nav li
 {
 display: inline;
-font-size: 18px;
+text-size: 18px;
 position: relative;
 margin-left: 35px;
+font-weight: bold;
 color: #aaaaaa;
+padding-top: 7.5px;
+padding-bottom: 7.5px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.nav li:hover
+{
+color:black;
+background-color: #ff8000;
 }
 
 a.links
@@ -44,7 +55,7 @@ clear:both;
 {
 width: 100%;
 height: 50px;
-background-color: black;
+background-color: #444444;
 position:absolute;
 }
 
